@@ -1,0 +1,40 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	background: url(../images/prof.jpg);
+	height: 100vh;
+	width: 100%;
+	max-width: 100%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.w-50{
+	width: 50%;
+	position: absolute ;
+	background: transparent;
+	backdrop-filter: blur(20px);
+	top: 100px;
+	border: 2px solid rgb(159, 48, 127) ;
+	border-radius: 10px;
+	left: 25%;
+}
+.form-signup h2{
+	text-align: center;
+}
+.form-control{
+	max-width: 60vh;
+}
+@media only screen and (max-width:375px){
+	.w-50{
+		width: 100%;
+		left: 0;
+	}
+}
+

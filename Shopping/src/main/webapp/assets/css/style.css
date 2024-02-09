@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	background: url(../image/loginn.jpg);
+	height: 100vh;
+	width: 100%;
+	max-width: 100%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.w-50{
+	width: 30%;
+	position: absolute ;
+	background: transparent;
+	backdrop-filter: blur(20px);
+	top: 180px;
+	border: 2px solid rgb(159, 48, 127) ;
+	border-radius: 10px;
+	left: 25%;
+}
+
+
+.form-signup h2{
+	text-align: center;
+}
+
+@media only screen and (max-width:375px){
+	.w-50{
+		width: 100%;
+		left: 0;
+	}
+}
+
+
+

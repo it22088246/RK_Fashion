@@ -1,0 +1,140 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	
+}
+a:hover{
+	text-decoration: none;
+}
+
+h1,h2,h3.h4,h5,h6{
+	font-family: 'Raleway', sans-serif;
+	
+}
+section{
+	padding: 40px 0;
+	overflow: hidden;
+}
+
+/**banner section css ***/
+
+#hero{
+	
+	background:url(../images/home.jpg);
+	height: 100vh;
+	width: 100%;
+	max-width: 100%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	
+}
+
+.container{
+	padding-bottom: 250px;
+	
+}
+
+#hero h1{
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 56px;
+	margin: 0 0 10px 0;
+	color: rgb(91, 52, 89);
+}
+
+#hero h2{
+	color: rgb(0, 0, 0);
+	margin-bottom: 40px;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+
+#hero .btn_get_started{
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 28px;
+	border-radius: 50px;
+	border: 2px solid black;
+	color: rgb(0, 0, 0);
+	background-color: transparent;
+	
+	
+}
+
+#hero .btn_get_started:hover{
+	background-color: rgb(148, 116, 144);
+	border: 2px solid rgb(148, 116, 144);
+}
+
+#header{
+	background: url(../images/banner-img.jpg);
+	height: 100vh;
+	width: 100%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding-top: 90px;
+	
+}
+
+.carousel-inner h1{
+	font-size: 60px;
+	font-family: var(--lg-font);
+}
+
+.title h2::before{
+	position: absolute;
+	content: "";
+	width: 4px;
+	height: 50px;
+	background-color: var(--pink);
+	left: -20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.collection-img  span{
+	top: 20px;
+	right: 20px;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+}
+
+#offers{
+	background: url(../images/offer_img.jpg) center/cover no-repeat;
+}
+
+#offers .row{
+	min-height: 60vh;
+}
+
+#offers-content span{
+	font-size: 30px;
+}
+
+#offers-content h2{
+	font-size: 60px;
+}
+
+
+footer .brand{
+	font-family: var(--lg-font);
+	letter-spacing: 2px;
+}

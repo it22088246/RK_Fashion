@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.form-control{
+	margin-top: 5px;
+	margin-left: 10px;
+	height: 35px;
+	width: 800px;
+	border-radius: 1px solid orange !important;
+	border-radius: 20px 0 0 20px ;
+	box-shadow: none !important;
+}
+
+.input-group-text{
+	background: orange;
+	border: 1px solid orange;
+	border-radius: 0 20px 20px 0 ;
+	cursor: pointer;
+	height: 35px;
+	margin-top: 5px;
+}
